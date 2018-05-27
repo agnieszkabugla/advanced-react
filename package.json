@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node  lib/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack -wd --mode development"
   },
   "babel": {
     "presets": [
@@ -29,7 +29,15 @@
     "eslint-plugin-react": "^7.8.2"
   },
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
   }
 }
