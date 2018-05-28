@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node  lib/server.js",
-    "webpack": "webpack -wd --mode development"
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -26,7 +27,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.8.2"
+    "eslint-plugin-react": "^7.8.2",
+    "jest": "^23.0.1"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
